@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="FruitItemViewBinding">
+        <variable
+            name="viewModel"
+            type="net.onyxmueller.android.fruity.views.FruitRowViewModel"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:onClick="@{viewModel::onClick}">
+
+        <!--android:background="@drawable/background_danger"-->
+        <net.onyxmueller.android.fruity.views.FruitIconView
+            android:id="@+id/danger_level_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:fruitIconName="@{viewModel.iconResource}"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/danger_level_view"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.commonName}"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.scientificName}"
+                android:textAppearance="?android:textAppearanceMedium"/>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

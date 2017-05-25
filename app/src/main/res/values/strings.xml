@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fruity</string>
+
+    <string name="action_sort">Sort</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="question_text">What is the scientific name for:\n%1$s?</string>
+    <string name="answer_correct">Nailed it!</string>
+    <string name="answer_wrong">Nope! Try again.</string>
+    <string name="title_reminder">Quiz Reminder</string>
+    <string name="summary_reminder">Set a daily reminder to take the quiz.</string>
+    <string name="title_alarm">Reminder Time</string>
+    <string name="summary_alarm">Time of day when quiz reminder should trigger</string>
+    <string name="notification_title">Quiz Reminder</string>
+    <string name="notification_text">Time to take the quiz! </string>
+
+    <string name="pref_key_reminder" translatable="false">key_reminder</string>
+    <string name="pref_key_alarm" translatable="false">key_alarm</string>
+
+    <string name="nutrition_title">Nutrition</string>
+    <string name="serving_size_description_format">Serving Size: %1$,.2f grams</string>
+    <string name="carbs_description_format">Carbs: %1$,.2f grams</string>
+    <string name="fiber_description_format">Fiber: %1$,.2f grams</string>
+    <string name="sugar_description_format">Sugar: %1$,.2f grams</string>
+    <string name="protein_description_format">Protein: %1$,.2f grams</string>
+</resources>

@@ -1,0 +1,114 @@
+{
+  "fruits": [
+    {
+      "commonName": "Apple",
+      "scientificName": "Malus Domestica",
+      "iconResource": "ic_apple",
+      "imageAsset": "apples.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 13.81,
+      "fiberGrams": 2.40,
+      "sugarGrams": 10.00,
+      "proteinGrams": 0.30
+    },
+    {
+      "commonName": "Avocado",
+      "scientificName": "Persea Americana",
+      "iconResource" : "ic_avocado",
+      "imageAsset": "avocados.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 1.00,
+      "fiberGrams": 6.70,
+      "sugarGrams": 0.70,
+      "proteinGrams": 2.00
+    },
+    {
+      "commonName": "Banana",
+      "scientificName": "Musa Acuminata",
+      "iconResource": "ic_banana",
+      "imageAsset": "bananas.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 22.80,
+      "fiberGrams": 2.60,
+      "sugarGrams": 12.20,
+      "proteinGrams": 1.10
+    },
+    {
+      "commonName": "Blueberry",
+      "scientificName": "Vaccinium Myrtillus",
+      "iconResource": "ic_blueberries",
+      "imageAsset": "blueberries.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 14.49,
+      "fiberGrams": 2.40,
+      "sugarGrams": 9.96,
+      "proteinGrams": 0.74
+    },
+    {
+      "commonName": "Cherry",
+      "scientificName": "Prunus Avium",
+      "iconResource": "ic_cherries",
+      "imageAsset": "cherries.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 18.00,
+      "fiberGrams": 2.10,
+      "sugarGrams": 12.80,
+      "proteinGrams": 1.10
+    },
+    {
+      "commonName": "Grape",
+      "scientificName": "Vitis Vinifera",
+      "iconResource": "ic_grapes",
+      "imageAsset": "grapes.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 18.10,
+      "fiberGrams": 0.90,
+      "sugarGrams": 15.48,
+      "proteinGrams": 0.72
+    },
+    {
+      "commonName": "Orange",
+      "scientificName": "Citrus Sinensis",
+      "iconResource": "ic_orange",
+      "imageAsset": "oranges.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 11.75,
+      "fiberGrams": 2.40,
+      "sugarGrams": 9.35,
+      "proteinGrams": 0.94
+    },
+    {
+      "commonName": "Raspberry",
+      "scientificName": "Rubus Idaeus",
+      "iconResource": "ic_raspberry",
+      "imageAsset": "raspberries.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 11.94,
+      "fiberGrams": 6.50,
+      "sugarGrams": 4.42,
+      "proteinGrams": 1.10
+    },
+    {
+      "commonName": "Strawberry",
+      "scientificName": "Fragaria Ananassa",
+      "iconResource": "ic_strawberry",
+      "imageAsset": "strawberries.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 7.68,
+      "fiberGrams": 2.00,
+      "sugarGrams": 4.89,
+      "proteinGrams": 0.67
+    },
+    {
+      "commonName": "Watermelon",
+      "scientificName": "Citrullus Lanatus",
+      "iconResource": "ic_watermelon",
+      "imageAsset": "watermelons.webp",
+      "servingSizeGrams": 100.0,
+      "carbsGrams": 7.55,
+      "fiberGrams": 0.40,
+      "sugarGrams": 6.20,
+      "proteinGrams": 0.61
+    }
+  ]
+}
